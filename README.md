@@ -41,7 +41,7 @@ The script reads the `package-lock.json` file and parses it into a Pandas DataFr
   - `Integrity`
   - `Requires`
   - `Dependencies`
-  - `hasDependencies` (boolean flag indicating whether a package has dependencies)
+  - `hasDependencies` (boolean flag indicating whether a dependency has its own dependencies)
 
 ### 3. Process Dependency Information  
 Extracts and processes data from the `dependencies` dictionary:
